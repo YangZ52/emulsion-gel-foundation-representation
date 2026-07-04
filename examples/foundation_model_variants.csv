@@ -1,0 +1,20 @@
+Model_family,Model_variant,Pretraining_strategy,Input_resolution_or_patch_size,Frozen_encoder,Fine_tuned,Segmentation_decoder_used,Role_in_this_study
+CLIP,CLIP-B16,language-supervised contrastive learning,16x16 patch,Yes,No,Not applicable,latent image representation for downstream regression
+CLIP,CLIP-B32,language-supervised contrastive learning,32x32 patch,Yes,No,Not applicable,latent image representation for downstream regression
+CLIP,CLIP-L14,language-supervised contrastive learning,14x14 patch,Yes,No,Not applicable,latent image representation for downstream regression
+DINOv2,DINOv2-S14,self-supervised representation learning,14x14 patch,Yes,No,Not applicable,latent image representation for downstream regression
+DINOv2,DINOv2-B14,self-supervised representation learning,14x14 patch,Yes,No,Not applicable,latent image representation for downstream regression
+DINOv2,DINOv2-L14,self-supervised representation learning,14x14 patch,Yes,No,Not applicable,latent image representation for downstream regression
+DINOv2,DINOv2-G14,self-supervised representation learning,14x14 patch,Yes,No,Not applicable,latent image representation for downstream regression
+DINOv3,DINOv3-S16,self-supervised representation learning,16x16 patch,Yes,No,Not applicable,latent image representation for downstream regression
+DINOv3,DINOv3-B16,self-supervised representation learning,16x16 patch,Yes,No,Not applicable,latent image representation for downstream regression
+DINOv3,DINOv3-L16,self-supervised representation learning,16x16 patch,Yes,No,Not applicable,latent image representation for downstream regression
+DINOv3,DINOv3-Hplus16,self-supervised representation learning,16x16 patch,Yes,No,Not applicable,latent image representation for downstream regression
+SAM,SAM-B16,segmentation-oriented promptable representation learning,16x16 patch,Yes,No,No,latent image representation for downstream regression
+SAM,SAM-L16,segmentation-oriented promptable representation learning,16x16 patch,Yes,No,No,latent image representation for downstream regression
+SAM,SAM-H16,segmentation-oriented promptable representation learning,16x16 patch,Yes,No,No,latent image representation for downstream regression
+SAM2,SAM2-Tiny,segmentation-oriented promptable representation learning,hierarchical encoder,Yes,No,No,latent image representation for downstream regression
+SAM2,SAM2-Small,segmentation-oriented promptable representation learning,hierarchical encoder,Yes,No,No,latent image representation for downstream regression
+SAM2,SAM2-BasePlus,segmentation-oriented promptable representation learning,hierarchical encoder,Yes,No,No,latent image representation for downstream regression
+SAM2,SAM2-Large,segmentation-oriented promptable representation learning,hierarchical encoder,Yes,No,No,latent image representation for downstream regression
+

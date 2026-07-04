@@ -1,0 +1,15 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+pillow
+openpyxl
+
+# Optional, only needed for extracting new foundation embeddings.
+torch
+torchvision
+timm
+open_clip_torch
+

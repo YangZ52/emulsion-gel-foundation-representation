@@ -1,0 +1,22 @@
+column_name,description,required
+image_file,CLSM image filename,Yes
+formulation_group,independent formulation group identifier,Yes
+protein_type,protein source or type,Yes
+heat,heating treatment indicator,Yes
+protein_concentration,protein concentration,Yes
+oil_phase_fraction,oil phase fraction or oil content,Yes
+pH,pH,Yes
+NaCl_mM,sodium chloride concentration in mM,Recommended
+CaCl2_mM,calcium chloride concentration in mM,Recommended
+log_Gp,log10 storage modulus at 1 Hz in Pa,Yes
+log_breaking_stress,log10 breaking stress in Pa,Optional
+n_droplets,droplet number density descriptor,Recommended
+oil_area_fraction,image-derived oil area fraction descriptor,Recommended
+mean_radius,mean droplet radius descriptor,Recommended
+radius_cv,droplet size polydispersity descriptor,Recommended
+mean_normalized_NND,size-normalized nearest-neighbor distance descriptor,Recommended
+mean_shell_green,interfacial protein intensity descriptor,Recommended
+mean_eccentricity,droplet anisotropy descriptor,Recommended
+protein_connection_density,protein network connectivity descriptor,Recommended
+protein_fractal_dimension,protein network complexity descriptor,Recommended
+

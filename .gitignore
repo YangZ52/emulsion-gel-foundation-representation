@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Raw data and large generated files
+data/raw/images/
+data/raw/embeddings/
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.csv
+*.tif
+*.tiff
+
+# Outputs
+outputs/
+results/
+

@@ -1,0 +1,5 @@
+image_file,formulation_group,protein_type,heat,protein_concentration,oil_phase_fraction,pH,NaCl_mM,CaCl2_mM,log_Gp,log_breaking_stress,n_droplets,oil_area_fraction,mean_radius,radius_cv,mean_normalized_NND,mean_shell_green,mean_eccentricity,protein_connection_density,protein_fractal_dimension
+picture2.png,example_low,QPI,N,3,20,3,0,0,2.56,1.56,35,0.18,21.3,0.72,1.42,72.1,0.55,0.065,1.42
+picture60.png,example_medium,FPI,Y,5,50,5,0,0,3.11,2.30,118,0.34,12.4,0.94,1.63,101.6,0.66,0.096,1.74
+picture112.png,example_high,FPI,Y,5,70,7,0,40,3.86,3.04,225,0.48,8.8,1.16,1.77,132.5,0.70,0.118,1.88
+
