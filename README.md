@@ -14,6 +14,9 @@ The workflow compares conventional formulation and handcrafted descriptor baseli
 ├── examples/
 │   ├── foundation_model_variants.csv
 │   ├── expected_metadata_columns.csv
+│   ├── formulation_rheology_summary.csv
+│   ├── formulation_rheology_summary.xlsx
+│   ├── example_metadata_small.csv
 │   └── confocal_images/
 ├── data/
 │   └── raw/
@@ -34,9 +37,20 @@ This public package includes:
 - code for PCA-based visualization of foundation latent space;
 - a list of foundation-model variants evaluated in the manuscript;
 - a template describing the expected metadata columns;
-- optional folders for small example CLSM images.
+- a formulation-level rheology summary table;
+- small example CLSM images for visual reference.
 
 The full raw CLSM dataset, complete rheology workbook, and high-dimensional foundation embeddings are not included here by default because they may be large and are best deposited through a persistent research data repository. The scripts are written so these files can be supplied locally through command-line arguments.
+
+## Example Files
+
+The `examples/` folder contains reviewer-facing files that document the dataset structure without requiring the full raw image archive:
+
+- `formulation_rheology_summary.csv` and `.xlsx`: one row per independent formulation group, including formulation variables, number of CLSM images, and storage modulus summary statistics;
+- `foundation_model_variants.csv`: foundation encoders evaluated as frozen image feature extractors;
+- `expected_metadata_columns.csv`: column definitions expected by the analysis scripts;
+- `example_metadata_small.csv`: a minimal three-image example table;
+- `confocal_images/`: three small CLSM PNG examples spanning low, medium, and high rheological response.
 
 ## Data Expected
 
@@ -101,4 +115,3 @@ All model evaluation is performed at the formulation-group level. Images from th
 ## Notes for Reviewers and Readers
 
 This repository is intended to document the analysis structure and provide reproducible code templates for the manuscript. Full reproduction requires the associated raw CLSM image dataset, rheology metadata, and/or precomputed embedding tables. Once deposited, the dataset DOI can be added here.
-
